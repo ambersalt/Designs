@@ -1,5 +1,9 @@
 
 SartoriusDesign <- function(n = 3) {
-  scale_fill_manual(values = c("#FFED00", "#FFFFFF", "#000000")) +
-  scale_color_manual(values = c("#FFED00", "#FFFFFF", "#000000"))
+  colors <- c("#FFED00", "#FFFFFF", "#000000")
+  if (n <= length(colors)) {
+    return(colors[1:n])
+  } else {
+    return(colors)
+  }
 }
