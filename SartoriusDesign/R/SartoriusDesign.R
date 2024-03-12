@@ -14,14 +14,3 @@ SartoriusDesign <- function(n = 3) {
     return(colors)
   }
 }
-
-roxygenize()
-
-export(SartoriusDesign)
-
-
-dump("SartoriusDesign", file = "R/SartoriusDesign.R")
-SartoriusDesign:::SartoriusDesign()
-
-devtools::build("C:\Users\umkehr\OneDrive - Sartorius Cellgenix GmbH\Dokumente\R Studio\Pakete\SartoriusDesign")
-devtools::install_url("URL_zum_Paket.tar.gz")
