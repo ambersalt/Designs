@@ -7,7 +7,7 @@ Description: A custom color palette package for R.
 Maintainer: Marie Umkehr <umkehr@cellgenix.com>
 License: GPL-3
 Encoding: UTF-8
-LazyData: true
+
 
 Suggests: knitr, rmarkdown
 VignetteBuilder: knitr
